@@ -1,5 +1,5 @@
 #!/bin/bash
-eval "$("$(dirname $0)"/adr-config)"
+eval "$("$(dirname "$0")"/adr-config)"
 
 cmds=("$@")
 available_commands=$( "$adr_bin_dir"/_adr_commands | sort )
