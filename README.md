@@ -3,7 +3,7 @@ ADR Tools
 
 A command-line tool for working with a log of [Architecture Decision Records][ADRs] (ADRs).
 
-[![Build Status](https://travis-ci.org/npryce/adr-tools.svg?branch=master)](https://travis-ci.org/npryce/adr-tools)
+[![Makefile CI](https://github.com/superbrave/adr-tools/actions/workflows/quality-assurance.yml/badge.svg)](https://github.com/superbrave/adr-tools/actions/workflows/quality-assurance.yml)
 
 Quick Start
 -----------
