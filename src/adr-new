@@ -105,7 +105,7 @@ dstfile="$dstdir"/$newid-$slug.md
 date=${ADR_DATE:-$(date +%Y-%m-%d)}
 
 mkdir -p "$dstdir"
-cat $template | sed \
+cat "$template" | sed \
     -e "s|NUMBER|$newnum|" \
     -e "s|TITLE|$title|" \
     -e "s|DATE|$date|" \
