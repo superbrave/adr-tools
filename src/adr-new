@@ -73,10 +73,11 @@ done
 shift $((OPTIND-1))
 
 dstdir=$("$adr_bin_dir/_adr_dir")
+template_dir=$("$adr_bin_dir/_adr_template_dir")
 template="$ADR_TEMPLATE"
 if [ -z $template ]
 then
-    template="$dstdir/templates/template.md"
+    template="$template_dir/template.md"
     if [ ! -f "$template" ]
     then
         template="$adr_template_dir/template.md"
