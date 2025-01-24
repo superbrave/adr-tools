@@ -54,6 +54,7 @@ then
     echo
 fi
 
+IFS=$'\n'
 for f in $("$adr_bin_dir/adr-list")
 do
     title=$("$adr_bin_dir/_adr_title" "$f")

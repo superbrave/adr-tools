@@ -58,6 +58,7 @@ echo "digraph {"
 echo "  node [shape=plaintext];"
 
 echo "  subgraph {"
+IFS=$'\n'
 for f in $("$adr_bin_dir/adr-list")
 do
 	n=$(index "$f")
